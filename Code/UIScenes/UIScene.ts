@@ -71,7 +71,7 @@ class UIScene extends TBX.Scene2D
     {
         let NewSlider:Slider = new Slider(null, Text, Value);
         NewSlider.Name = Text;
-        NewSlider.Position = new TBX.Vertex(960, 450 + 120 * Order, 0.2);
+        NewSlider.Position = new TBX.Vertex(0, 340 + 160 * Order, 0.2);
         this.Attach(NewSlider);
         return NewSlider;
     }
