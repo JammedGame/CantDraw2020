@@ -9,8 +9,23 @@ import { CreditsScene } from "./CreditsScene";
 import { GameScene } from "../Game/GameScene";
 import { DialogPool } from "../Game/GameData/DialogPool";
 
+const USED_IMAGES = [
+    "Resources/Textures/Backgrounds/1.png",
+    "Resources/Textures/Backgrounds/2.png",
+    "Resources/Textures/Backgrounds/2.1.png",
+    "Resources/Textures/Backgrounds/2.2.1.png",
+    "Resources/Textures/Backgrounds/2.2.2.png",
+    "Resources/Textures/Backgrounds/3.png",
+    "Resources/Textures/Backgrounds/4.png",
+    "Resources/Textures/Backgrounds/5.png",
+    "Resources/Textures/Backgrounds/6.png",
+    "Resources/Textures/Backgrounds/7.png",
+    "Resources/Textures/Backgrounds/8.png",
+];
+
 class LoadingScene extends UIScene
 {
+    private _PreloadedImages: any[];
     private _Progress:TBX.ProgressBar;
     public constructor(Old?:LoadingScene)
     {
@@ -26,8 +41,18 @@ class LoadingScene extends UIScene
     }
     private InitGameData() : void
     {
+        this.PreloadImages();
         let DP: DialogPool = new DialogPool();
         this.InitLoadingScene();
+    }
+    private PreloadImages() : void
+    {
+        this._PreloadedImages = [];
+        USED_IMAGES.forEach(url => {
+            let NewImage = new Image();
+            NewImage.src = url;
+            this._PreloadedImages.push(NewImage);
+        });
     }
     private InitLoadingScene() : void
     {

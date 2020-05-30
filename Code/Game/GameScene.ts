@@ -28,6 +28,7 @@ class GameScene extends TBX.Scene2D
     private InitGameScene() : void
     {
         this.Name = "Game";
+        this.BackColor = TBX.Color.Black;
         this.CreateBackground();
         this._Home = new TBX.UI.Button(null, "Home");
         this._Home.Dock = TBX.UI.DockType.TopRight;
@@ -54,6 +55,7 @@ class GameScene extends TBX.Scene2D
         this._Back.Dock = TBX.UI.DockType.Center;
         this._Back.Size = new TBX.Vertex(1920, 1080, 1);
         this._Back.Style.Values.transition = "0.5s background";
+        this._Back.Style.Values.backgroundSize = "cover";
         this.Attach(this._Back);
     }
     private SetBackground(URL: string) : void
