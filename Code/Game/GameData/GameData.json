@@ -1,0 +1,51 @@
+[
+    {
+        "id": "house1",
+        "text": "(My life is always the same, working a boring nine to five job, not really going out or doing anything interesting.)",
+        "background": "1",
+        "to": "house2"
+    },
+    {
+        "id": "house2",
+        "text": "(I finally decided to take a break and enjoy myself, I took a vacation from work, got my car and went to the beach to relax.)",
+        "background": "1",
+        "to": "beach1"
+    },
+    {
+        "id": "beach1",
+        "text": "(Ah, the sun on my face, the sand underneath my feet and a nice drink to top it off, no better way to spend some me-time.)",
+        "background": "2.1",
+        "to": "beach2"
+    },
+    {
+        "id": "beach2",
+        "text": "(I could go for a little swim, I just hope I didn't forget how.)",
+        "background": "2",
+        "to": "beach3"
+    },
+    {
+        "id": "beach3",
+        "text": "(Hmmm, looks like I got a little too far from shore. I should start getting back just in case.)",
+        "background": "3",
+        "to": "beach4"
+    },
+    {
+        "id": "beach4",
+        "character": "test",
+        "text": "(Oh no, I got a cramp in my left ass cheek, it hurts so much, I can't move my leg.)",
+        "background": "4",
+        "to": "beach5"
+    },
+    {
+        "id": "beach5",
+        "text": "(I can't continue to swim, I'm gonna drown.)",
+        "background": "5",
+        "to": "beach6"
+    },
+    {
+        "id": "beach6",
+        "text": "(I didn't even get to see my dad again since he left for cigarettes 18 years ago.)",
+        "background": "6",
+        "to": "house1"
+    }
+]

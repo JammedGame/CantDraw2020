@@ -1,0 +1,4 @@
+/node_modules
+/tscompiled
+/build/cantDraw.js
+package-lock.json
