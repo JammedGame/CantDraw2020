@@ -611,5 +611,242 @@
 		"character": "Becky",
 		"expression": "Side",
         "to": "becky1"
-    }
+    },
+    {
+        "id": "bubbles1",
+        "text": "(I can’t help but feel a little guilty for leaving the others behind. But I really like this crab, she’s a special one, I even feel like she could be--)",
+        "background": "A2.3",
+        "to": "bubbles2"
+    },
+    {
+        "id": "bubbles2",
+        "text": "Did you know that crabs are the ultimate life form?",
+        "background": "A2.3",
+        "character": "Bubbles",
+        "to": "bubbles3"
+    },
+    {
+        "id": "bubbles3",
+        "text": "Huh?",
+        "background": "A2.3",
+        "character": "Player",
+        "to": "bubbles4"
+    },
+    {
+        "id": "bubbles4",
+        "text": "Yup! It’s called carcinisation, it’s the tendency for nature to evolve a crustacean into the perfect crab-like shape. She grins and flexes her claws with excitement.",
+        "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "HappyClosed",
+        "options": [
+			{
+				"text": "What about animals that eat crabs, like birds and big fish, aren’t they superior creatures?",
+				"to": "bubbles4.1"
+			},
+			{
+				"text": "That’s cool.",
+				"to": "bubbles4.2"
+			},
+			{
+				"text": "Yeah I already knew that.",
+				"to": "bubbles4.3"
+			}
+		]
+    },
+    {
+        "id": "bubbles4.1",
+        "text": "Well, when you say it like that… (I’m such a fool. I guess I should be more supportive of my girlfriend instead of trying to be right all the time. I should think of a way to fix this.)",
+        "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "Worried",
+        "to": "bubbles5"
+    },
+    {
+        "id": "bubbles4.2",
+        "text": "I know right?",
+        "background": "A2.3",
+		"character": "Bubbles",
+		"expression": "HappyClosed",
+        "to": "bubbles5"
+    },
+    {
+        "id": "bubbles4.3",
+        "text": "Oh... Well alright then",
+        "background": "A2.3",
+        "character": "Bubbles",
+        "to": "bubbles5"
+    },
+    {
+        "id": "bubbles5",
+        "text": "Hey are you more of a pistol shrimp or mantis shrimp person?",
+        "background": "A2.3",
+        "character": "Player",
+        "to": "bubbles6"
+    },
+    {
+        "id": "bubbles6",
+        "text": "(Her eyes light up.)",
+        "background": "A2.3",
+        "to": "bubbles7"
+    },
+    {
+        "id": "bubbles7",
+        "text": "Oooh, mantis shrimp are so cool, those eyes with over a dozen photoreceptors! They can probably see colours we can’t even imagine! And those powerful clubbed claws… Oh but now that I mention claws, pistol shrimp are wicked! Did you know they can click their claws so powerfully that it creates a shockwave which stuns other creatures? IMAGINE--",
+        "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "Sparkle",
+        "to": "bubbles7b"
+    },
+    {
+        "id": "bubbles7b",
+        "text": "*5 hours later*",
+        "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "HappySide",
+        "to": "bubbles7c"
+    },
+    {
+        "id": "bubbles7c",
+        "text": "So yeah, I’d have to say... I love them both!",
+        "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "HappyClosed",
+        "to": "bubbles8"
+    },
+    {
+        "id": "bubbles8",
+        "text": "(Wow, that went on for a while, but I’m glad she’s in a good mood again. We’re already at the restaurant.)",
+        "background": "A2.3",
+        "to": "bubbles9"
+    },
+    {
+        "id": "bubbles9",
+        "text": "I have a surprise for you, I got us the best table.",
+        "background": "Restaurant",
+        "character": "Player",
+        "to": "bubbles10"
+    },
+    {
+        "id": "bubbles10",
+        "text": "The one closest to the bathroom for convenience?",
+        "background": "Restaurant",
+        "character": "Bubbles",
+        "to": "bubbles11"
+    },
+    {
+        "id": "bubbles11",
+        "text": "Exactly! So what do you wanna eat?",
+        "background": "Restaurant",
+        "character": "Player",
+        "to": "bubbles12"
+    },
+    {
+        "id": "bubbles12",
+        "text": "Pasta! Spaghetti al dente!",
+        "background": "Restaurant",
+		"character": "Bubbles",
+		"expression": "HappyClosed",
+        "to": "bubbles13"
+    },
+    {
+        "id": "bubbles13",
+        "text": "Hey hot stuff, what’ll you be having today?",
+        "background": "Restaurant",
+        "character": "Waitress",
+        "to": "bubbles13a"
+	},
+	{
+		"id": "bubbles13a",
+		"text": "(Uh-oh, Bubbles looks super upset all of a sudden.)",
+		"background": "Restaurant",
+		"to": "bubbles14"
+	},
+    {
+        "id": "bubbles14",
+        "text": "Actually, we’d like a few minutes in private to decide.",
+        "background": "Restaurant",
+        "character": "Player",
+        "options": [
+			{
+				"text": "You don’t have to worry about things like that Bubbles. You’re the only person I want to be with, and nothing will change that.",
+				"to": "bubbles14.1"
+			},
+			{
+				"text": "I’m on this date with you, not her.",
+				"to": "bubbles14.2"
+			},
+			{
+				"text": "Listen up you silly crab, you are much better than that lobster. Crabs are the ultimate life form, you said it yourself.",
+				"to": "bubbles14.3"
+			}
+		]
+    },
+    {
+        "id": "bubbles14.1",
+        "text": "Y-you fool, you know lobsters are biologically immortal right? She would probably make you happy forever, I couldn’t compete with that.",
+        "background": "Restaurant",
+		"character": "Bubbles",
+		"expression": "Worried",
+        "to": "bubbles15"
+    },
+    {
+        "id": "bubbles14.2",
+        "text": "I see, so you’re just stuck with me.",
+        "background": "Restaurant",
+		"character": "Bubbles",
+		"expression": "Worried",
+        "to": "bubbles15"
+    },
+    {
+        "id": "bubbles14.3",
+        "text": "Huh, I guess you are right, I did say that. Yes I’m better than lobster, no, better than anyone.",
+        "background": "Restaurant",
+		"character": "Bubbles",
+        "to": "bubbles15"
+    },
+    {
+        "id": "bubbles15",
+        "text": "I don’t care about that at all, I only care about you.",
+        "background": "Restaurant",
+        "character": "Player",
+        "to": "bubbles16"
+    },
+    {
+        "id": "bubbles16",
+        "text": "(There’s that beautiful smile again. We share a big bowl of spaghetti, have a lovely time and tell jokes and fun facts all night. After we finish, over drinks, Bubbles gets a little serious.)",
+        "background": "Restaurant",
+        "to": "bubbles17"
+    },
+    {
+        "id": "bubbles17",
+        "text": "Hey, I know you have a destiny to fulfill and all but… But I really wish you could just stay with me, down here!",
+        "background": "Restaurant",
+		"character": "Bubbles",
+		"expression": "Sparkle",
+        "to": "bubbles18"
+    },
+    {
+        "id": "bubbles18",
+        "text": "I… I wish I could stay here too! I wish I could be with you forever!",
+        "background": "Restaurant",
+        "character": "Player",
+        "to": "bubbles19"
+    },
+    {
+        "id": "bubbles19",
+        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. Wait. I HAVE CLAWS!? Our wishes came true, and I am a crab now! I’m finally truly happy.)",
+        "background": "Restaurant",
+		"to": "end"
+	},
+	{
+		"id": "end",
+		"text": "THE END",
+		"background": "Beach",
+		"options": [
+			{
+				"text": "Start over",
+				"to": "house1"
+			}
+		]
+	}
 ]
