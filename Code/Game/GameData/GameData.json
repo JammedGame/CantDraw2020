@@ -499,7 +499,7 @@
         "id": "goldenfish11",
         "text": "You are here for a reason. I will speak your destiny now.",
         "background": "A3.1",
-        "character": "The Goldenfish",
+        "character": "Goldenfish",
         "to": "goldenfish12"
     },
     {
@@ -512,7 +512,7 @@
         "id": "goldenfish13",
         "text": "You are to become the king of the seas, and rule over all the waters and creatures that inhabit them.",
         "background": "A3.2",
-        "character": "The Goldenfish",
+        "character": "Goldenfish",
         "to": "goldenfish14"
     },
     {
@@ -526,7 +526,7 @@
         "id": "goldenfish15",
         "text": "Silence! I have spoken. This which “cannot be your destiny” is your destiny nonetheless, and you have no choice in the matter. Furthermore, you must select a partner (she gestures at Bubbles, Faith and Becky standing right behind me) to rule at your side. You must make this choice before you leave this cave, and you must embark on a date with your chosen partner immediately.",
         "background": "A3.2",
-        "character": "The Goldenfish",
+        "character": "Goldenfish",
         "to": "goldenfish16"
     },
     {
@@ -544,9 +544,17 @@
     },
     {
         "id": "goldenfish18",
-        "text": "You would offer this honour to ME? In place of a king of the seas, you would have a queen to rule over the oceans and lands of this world? (She begins to shine even more brightly than before, blinding me and the others.) Yes, with the power of the seas, and my omniscience, I would become truly eternal and all-powerful. (The light dies down suddenly.) Hah! I refuse your offer, human. This story doesn’t need a supervillain. Now make your choice quickly, and leave this place.",
+        "text": "You would offer this honour to ME? In place of a king of the seas, you would have a queen to rule over the oceans and lands of this world? (She begins to shine even more brightly than before, blinding me and the others.) Yes, with the power of the seas, and my omniscience, I would become truly eternal and all-powerful. (The light dies down suddenly.)",
         "background": "A3.1",
-        "character": "The Goldenfish",
+        "character": "Goldenfish",
+        "expression": "Evil",
+        "to": "goldenfish18a"
+    },
+    {
+        "id": "goldenfish18a",
+        "text": "Hah! I refuse your offer, human. This story doesn’t need a supervillain. Now make your choice quickly, and leave this place.",
+        "background": "A3.1",
+        "character": "Goldenfish",
         "to": "goldenfish18b"
 	},
 	{

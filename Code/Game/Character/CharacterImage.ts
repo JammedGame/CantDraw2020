@@ -7,7 +7,8 @@ const YOFFSET = -100;
 const DEFAULT_EXPRESSION = "Idle";
 const CHARACTERS_WITH_ART = [
     "Bubbles",
-    "Faith"
+    "Faith",
+    "Goldenfish"
 ];
 
 class CharacterImage extends TBX.UI.Panel
