@@ -2,6 +2,9 @@ export { CharacterIndicator }
 
 import * as TBX from "toybox-engine";
 
+const CHARACTER_PLAYER = "Player";
+const PLAYER_NAME = "Me";
+
 class CharacterIndicator extends TBX.UI.Panel
 {
     private _Text: TBX.UI.Label;
@@ -25,6 +28,8 @@ class CharacterIndicator extends TBX.UI.Panel
     }
     public Init(CharacterName: string) : void
     {
+        if (CharacterName === CHARACTER_PLAYER) CharacterName = PLAYER_NAME;
+
         this._Text.Text = CharacterName;
     }
 }
