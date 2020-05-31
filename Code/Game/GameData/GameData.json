@@ -156,7 +156,8 @@
         "id": "island17",
         "text": "When will we send this trash to the Goldenfish?",
         "background": "A2.3",
-        "character": "Becky",
+		"character": "Becky",
+		"expression": "Side",
         "to": "island19"
     },
     {
@@ -287,7 +288,8 @@
         "id": "island26.1",
         "text": "...",
         "background": "A2.4",
-        "character": "Becky",
+		"character": "Becky",
+		"expression": "Silent",
         "to": "island26.1.2"
     },
     {
@@ -302,7 +304,8 @@
         "id": "island26.1.3",
         "text": "SHUT UP BUBBLES!",
         "background": "A2.4",
-        "character": "Becky",
+		"character": "Becky",
+		"expression": "Side",
         "to": "island27"
     },
     {
@@ -406,7 +409,8 @@
         "id": "island38",
         "text": "Hmph.",
         "background": "A2.3",
-        "character": "Becky",
+		"character": "Becky",
+		"expression": "Silent",
         "to": "island39"
     },
     {
@@ -567,7 +571,8 @@
     {
         "id": "goldenfish19",
         "text": "I choose...",
-        "background": "A3.1",
+		"background": "A3.1",
+		"character": "Player",
         "options": [
             {
                 "text": "I choose Bubbles.",
@@ -589,7 +594,7 @@
         "background": "A3.1",
         "character": "Bubbles",
 		"expression": "HappyClosed",
-        "to": "house1"
+        "to": "bubbles1"
     },
     {
         "id": "goldenfish19.2",
@@ -597,13 +602,14 @@
         "background": "A3.1",
 		"character": "Faith",
 		"expression": "Blush",
-        "to": "house1"
+        "to": "faith1"
     },
     {
         "id": "goldenfish19.3",
         "text": "… Fine, I guess it’s up to you. But you should know, I won’t make it easy! But lemme help you out just this once. How about we go up to the surface? I wanna show you something.",
         "background": "A3.1",
-        "character": "Becky",
-        "to": "house1"
+		"character": "Becky",
+		"expression": "Side",
+        "to": "becky1"
     }
 ]
