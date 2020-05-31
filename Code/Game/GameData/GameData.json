@@ -205,6 +205,8 @@
         "id": "island21.1.1",
         "text": "*5 hours later*",
         "background": "A2.3",
+        "character": "Bubbles",
+		"expression": "HappySide",
         "to": "island21.1.2"
     },
     {
@@ -219,7 +221,8 @@
         "id": "island21.2",
         "text": "She is a fish that's golden and she has a story to tell you.",
         "background": "A2.3",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Side",
         "to": "island22"
     },
     {
@@ -262,7 +265,8 @@
         "id": "island26",
         "text": "Bubbles we don’t have time for this.",
         "background": "A2.4",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Side",
         "options": [
             {
                 "text": "Why do you love this place so much Bubbles?",
@@ -311,7 +315,8 @@
         "id": "island26.3",
         "text": "I do, it’s my rooftop. No one bothers me there.",
         "background": "A2.4",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Side",
         "to": "island27"
     },
     {
@@ -334,6 +339,7 @@
         "text": "I do.",
         "background": "A2.4",
         "character": "Faith",
+		"expression": "SideBlush",
         "to": "island30"
     },
     {
@@ -369,7 +375,8 @@
         "id": "island34",
         "text": "I told you, she has a really important story to tell you.",
         "background": "A2.3",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Side",
         "to": "island35"
     },
     {
@@ -458,7 +465,8 @@
         "id": "goldenfish6",
         "text": "Just go with it, no use trying to fight destiny.",
         "background": "A2.3",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Side",
         "to": "goldenfish7"
     },
     {
@@ -578,7 +586,8 @@
         "id": "goldenfish19.2",
         "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you want to?",
         "background": "A3.1",
-        "character": "Faith",
+		"character": "Faith",
+		"expression": "Blush",
         "to": "house1"
     },
     {
