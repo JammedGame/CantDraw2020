@@ -45,6 +45,7 @@ class DialogOptionsPanel extends TBX.UI.Panel
     private CreateOption(Index: number) : TBX.UI.Label
     {
         let Option: TBX.UI.Label = new TBX.UI.Label();
+        Option.Size = new TBX.Vertex(1200, 60, 1);
         Option.Position = new TBX.Vertex(0, 20 + 80 * Index, 0);
         Option.Dock = TBX.UI.DockType.Top;
         Option.Style.Text.Size = 24;

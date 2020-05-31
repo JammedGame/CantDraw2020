@@ -10,7 +10,7 @@ class CharacterIndicator extends TBX.UI.Panel
         super();
         this.Dock = TBX.UI.DockType.TopRight;
         this.Position = new TBX.Vertex(-8, -80, 0);
-        this.Size = new TBX.Vertex(180, 80, 1);
+        this.Size = new TBX.Vertex(240, 80, 1);
         this.Style.Border.Color = TBX.Color.FromRGBA(244,208,63,255);
         this.Style.Border.Width = 8;
         this.Style.Border.Radius = 30;

@@ -10,17 +10,23 @@ import { GameScene } from "../Game/GameScene";
 import { DialogPool } from "../Game/GameData/DialogPool";
 
 const USED_IMAGES = [
-    "Resources/Textures/Backgrounds/1.png",
-    "Resources/Textures/Backgrounds/2.png",
-    "Resources/Textures/Backgrounds/2.1.png",
-    "Resources/Textures/Backgrounds/2.2.1.png",
-    "Resources/Textures/Backgrounds/2.2.2.png",
-    "Resources/Textures/Backgrounds/3.png",
-    "Resources/Textures/Backgrounds/4.png",
-    "Resources/Textures/Backgrounds/5.png",
-    "Resources/Textures/Backgrounds/6.png",
-    "Resources/Textures/Backgrounds/7.png",
-    "Resources/Textures/Backgrounds/8.png",
+    "Resources/Textures/Backgrounds/A1.1.png",
+    "Resources/Textures/Backgrounds/A1.2.png",
+    "Resources/Textures/Backgrounds/A1.2.1.png",
+    "Resources/Textures/Backgrounds/A1.2.2.1.png",
+    "Resources/Textures/Backgrounds/A1.2.2.2.png",
+    "Resources/Textures/Backgrounds/A1.3.png",
+    "Resources/Textures/Backgrounds/A1.4.png",
+    "Resources/Textures/Backgrounds/A1.5.png",
+    "Resources/Textures/Backgrounds/A1.6.png",
+    "Resources/Textures/Backgrounds/A1.7.png",
+    "Resources/Textures/Backgrounds/A1.8.png",
+    "Resources/Textures/Backgrounds/A2.1.png",
+    "Resources/Textures/Backgrounds/A2.2.png",
+    "Resources/Textures/Backgrounds/A2.3.png",
+    "Resources/Textures/Backgrounds/A2.4.png",
+    "Resources/Textures/Backgrounds/A3.1.png",
+    "Resources/Textures/Backgrounds/A3.2.png"
 ];
 
 class LoadingScene extends UIScene
