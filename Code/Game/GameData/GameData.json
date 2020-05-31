@@ -598,7 +598,7 @@
     },
     {
         "id": "goldenfish19.2",
-        "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you want to?",
+        "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned shipwreck? Do you want to?",
         "background": "A3.1",
 		"character": "Faith",
 		"expression": "Blush",
@@ -838,6 +838,275 @@
         "background": "Restaurant",
 		"to": "end"
 	},
+    {
+        "id": "faith1",
+        "text": "(I can’t help but feel a little guilty for leaving the others behind. But I really want to get to know this duck. I feel like only she could truly understand my own dark side. And also maybe I could help her be happier with her life.)",
+        "background": "A2.3",
+        "to": "faith2"
+    },
+    {
+        "id": "faith2",
+        "text": "Sooo, do you have any hobbies?",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "faith3"
+    },
+    {
+        "id": "faith3",
+        "text": "Not really.",
+		"background": "A2.3",
+		"character": "Faith",
+        "to": "faith4"
+    },
+    {
+        "id": "faith4",
+        "text": "(She really doesn’t know how to keep a conversation going huh… I guess I’ll have to try harder.)",
+        "background": "A2.3",
+        "to": "faith5"
+    },
+    {
+        "id": "faith5",
+        "text": "What about clubs and restaurants? Do you like going out?",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "faith6"
+    },
+    {
+        "id": "faith6",
+        "text": "Nah, just the shipwreck.",
+		"background": "A2.3",
+		"character": "Faith",
+		"expression": "Side",
+        "to": "faith7"
+    },
+    {
+        "id": "faith7",
+        "text": "So you just like… Vibe there?",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "faith8"
+    },
+    {
+        "id": "faith8",
+        "text": "I usually put on some music.",
+		"background": "A2.3",
+		"character": "Faith",
+        "to": "faith9"
+    },
+    {
+        "id": "faith9",
+        "text": "Oooh, what music do you listen to?",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "faith10"
+    },
+    {
+        "id": "faith10",
+        "text": "Don’t bother, probably nothing you’ve ever heard of.",
+		"background": "A2.3",
+		"character": "Faith",
+		"expression": "Side",
+        "to": "faith11"
+    },
+    {
+        "id": "faith11",
+        "text": "Try me.",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "faith12"
+    },
+    {
+        "id": "faith12",
+        "text": "Well there’s duck metal, duck progressive rock, duck industrial…",
+		"background": "A2.3",
+		"character": "Faith",
+        "options": [
+			{
+				"text": "Yeah, I also listen to all of those!",
+				"to": "faith12.1"
+			},
+			{
+				"text": "Yikes, I’ve never heard of any of those… But I’d like to take a listen if you’re into them, I might enjoy it too.",
+				"to": "faith12.2"
+			},
+			{
+				"text": "Wow, I’ve never heard of those, but they sound like they suck…",
+				"to": "faith12.3"
+			}
+		]
+    },
+    {
+        "id": "faith12.1",
+        "text": "Ugh, you poser, those are obviously not real genres. You’re worse than my parents.",
+		"background": "A2.3",
+		"character": "Faith",
+		"expression": "Angry",
+        "to": "faith13"
+    },
+    {
+        "id": "faith12.2",
+        "text": "*sigh* ok I lied, none of those are actually real. But thanks for taking an interest in my tastes I guess. I’ll put on my actual favourite music when we get to the shipwreck.",
+		"background": "A2.3",
+		"character": "Faith",
+		"expression": "SideBlush",
+        "to": "faith13"
+    },
+    {
+        "id": "faith12.3",
+        "text": "You know what man? You suck. I’m putting on my music anyway, and you can just deal with it.",
+		"background": "A2.3",
+		"character": "Faith",
+		"expression": "Angry",
+        "to": "faith13"
+    },
+    {
+        "id": "faith13",
+        "text": "(We walk pretty much in silence the rest of the way.)",
+		"background": "A2.3",
+        "to": "faith14"
+    },
+    {
+        "id": "faith14",
+        "text": "Wow, that’s one wicked shipwreck!",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "faith15"
+    },
+    {
+        "id": "faith15",
+        "text": "Yeah, it’s whatever. Let me put that music on.",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "Side",
+        "to": "faith16"
+    },
+    {
+        "id": "faith16",
+        "text": "(This music is kinda hard to listen to, but I also kinda enjoy it more and more as it goes.)",
+		"background": "Shipwreck",
+        "to": "faith17"
+    },
+    {
+        "id": "faith17",
+        "text": "So real talk, this is actually your favourite place isn’t it? I get the feeling you spend a lot of time here, don’t you? What about spending time with your family or meeting new people?",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "faith18"
+    },
+    {
+        "id": "faith18",
+        "text": "I just like it here. Also my parents suck, they act like they’re so caring but they actually know nothing about me. Also meeting new people is more stressful than it’s worth. I already have two friends and even they don’t really like me. I could die here and nobody would care or even notice.",
+		"background": "Shipwreck",
+		"character": "Faith",
+        "to": "faith19"
+    },
+    {
+        "id": "faith19",
+        "text": "(What am I supposed to say to that?)",
+		"background": "Shipwreck",
+        "options": [
+			{
+				"text": "Maybe you’re right. So what do you even live for then?",
+				"to": "faith19.1"
+			},
+			{
+				"text": "Do you really think that, or do you just have a hard time accepting that people care about you?",
+				"to": "faith19.2"
+			},
+			{
+				"text": "I care about you. And more importantly, your friends care about you, it’s easy to see that.",
+				"to": "faith19.3"
+			}
+		]
+    },
+    {
+        "id": "faith19.1",
+        "text": "Dude that’s not cool. I guess I’m just waiting to see if it gets more interesting.",
+		"background": "Shipwreck",
+		"character": "Faith",
+        "to": "faith20"
+    },
+    {
+        "id": "faith19.2",
+        "text": "I guess I haven’t thought about it that way.",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "Blush",
+        "to": "faith20"
+    },
+    {
+        "id": "faith19.3",
+        "text": "...",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "SideBlush",
+        "to": "faith20"
+    },
+    {
+        "id": "faith20",
+        "text": "Look Faith, I have something to admit, I’m actually not so different from you. I live a boring life, work a boring job, and don’t really hang out with anyone ever. That was yesterday, but now all of a sudden I’m destined to become “king of the seas” or whatever? I guess what I’m trying to say is, we all have potential to become something great, and you never really know what tomorrow brings, and sometimes you just have to blow off work and go to the beach.",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "faith21"
+    },
+    {
+        "id": "faith21",
+        "text": "So what do you propose?",
+		"background": "Shipwreck",
+		"character": "Faith",
+        "to": "faith22"
+    },
+    {
+        "id": "faith22",
+        "text": "Maybe just try one new thing from time to time?",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "faith23"
+    },
+    {
+        "id": "faith23",
+        "text": "Ok. Right now I’ll just try to accept that you chose me as your girlfriend, and feel good about that.",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "Blush",
+        "to": "faith24"
+    },
+    {
+        "id": "faith24",
+        "text": "Awesome. You know, telling you about my life made me realize, I don’t really wanna go back. This place is much cooler than my home, and I really trust you.",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "faith25"
+    },
+    {
+        "id": "faith25",
+        "text": "Fine then. But don’t complain about the music or the messiness or anything else, I have this place the way I like it. By the way I trust you too.",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "SideBlush",
+        "to": "faith26"
+    },
+    {
+        "id": "faith26",
+        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. I see a smile. Is Faith smiling?)",
+		"background": "Shipwreck",
+        "to": "faith27"
+    },
+    {
+        "id": "faith27",
+        "text": "Wh-- what just happened? You're a duck now?",
+		"background": "Shipwreck",
+		"character": "Faith",
+		"expression": "Blush",
+        "to": "faith28"
+    },
+    {
+        "id": "faith28",
+        "text": "I guess our strong connection allowed me to take the same form as you. Now we can truly live together as equals.",
+		"background": "Shipwreck",
+		"character": "Player",
+        "to": "end"
+    },
 	{
 		"id": "end",
 		"text": "THE END",
