@@ -1,8 +1,5 @@
 export { DialogOption, DialogEntry }
 
-const DEFAULT_EXPRESSION = "Idle";
-const DEFAULT_BACKGROUND = "Beach";
-
 class DialogOption
 {
     public Text: string;
@@ -29,8 +26,6 @@ class DialogEntry
     public Options: DialogOption[];
     public constructor(Data?: any)
     {
-        this.Background = DEFAULT_BACKGROUND;
-        this.Expression = DEFAULT_EXPRESSION;
         this.Options = [];
         if(Data)
         {

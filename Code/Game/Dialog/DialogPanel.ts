@@ -16,7 +16,7 @@ class DialogPanel extends TBX.UI.Panel
     {
         super();
         this.Dock = TBX.UI.DockType.Bottom;
-        this.Position = new TBX.Vertex(0, 30, 1);
+        this.Position = new TBX.Vertex(0, 30, 2);
         this.Size = new TBX.Vertex(1800, 360, 1);
         this.Style.Border.Color = TBX.Color.FromRGBA(244,208,63,255);
         this.Style.Border.Width = 8;
@@ -27,6 +27,7 @@ class DialogPanel extends TBX.UI.Panel
         this._Text.Size = new TBX.Vertex(1700, 80, 1);
         this._Text.Position = new TBX.Vertex(0, 0, 0);
         this._Text.Style.Text.Size = 36;
+        this._Text.Style.Values.textAlign = "justify";
         this._Text.Style.Values.borderWidth = "0 0 2px 0";
         this.Attach(this._Text);
         this._Options = new DialogOptionsPanel();
