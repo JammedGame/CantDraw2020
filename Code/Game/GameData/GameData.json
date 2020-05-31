@@ -105,14 +105,14 @@
     },
     {
         "id": "island10",
-        "text": "We saved you, and that's how you repay us? Hmph.",
+        "text": "We saved you, and that's how you react? Hmph.",
         "background": "A2.2",
         "character": "Pufferfish",
         "to": "island11"
     },
     {
         "id": "island11",
-        "text": "Sorry sorry, I was just surprised that all of you can talk. Who are you anyway?",
+        "text": "Sorry sorry, I was just surprised that you can talk. Who are you anyway?",
         "background": "A2.2",
         "character": "Player",
         "to": "island12"
@@ -202,7 +202,7 @@
     },
     {
         "id": "island21.1.1",
-        "text": "*5h later screen*",
+        "text": "*5 hours later*",
         "background": "A2.3",
         "to": "island21.1.2"
     },
@@ -262,17 +262,17 @@
         "character": "Faith",
         "options": [
             {
-                "text": "Where is your favorite place Becky?",
-                "to": "island26.1"
-            },
-            {
                 "text": "Why do you love this place so much Bubbles?",
                 "to": "island26.2"
+            },
+			{
+                "text": "What's your favorite place Becky?",
+                "to": "island26.1"
             },
             {
                 "text": "Let her have some fun Faith. You must have a favorite place too.",
                 "to": "island26.3"
-            }
+			}
         ]
     },
     {
@@ -516,7 +516,7 @@
     },
     {
         "id": "goldenfish16",
-        "text": "(It looks like they are shocked as much as I am. This is all so sudden, how am I supposed to make this kind of choice right here right now?)",
+        "text": "(It looks like they are shocked as I am. This is all so sudden, how am I supposed to make this kind of choice right here right now?)",
         "background": "A3.1",
         "to": "goldenfish17"
     },
@@ -532,11 +532,17 @@
         "text": "You would offer this honour to ME? In place of a king of the seas, you would have a queen to rule over the oceans and lands of this world? (She begins to shine even more brightly than before, blinding me and the others.) Yes, with the power of the seas, and my omniscience, I would become truly eternal and all-powerful. (The light dies down suddenly.) Hah! I refuse your offer, human. This story doesn’t need a supervillain. Now make your choice quickly, and leave this place.",
         "background": "A3.1",
         "character": "The Goldenfish",
-        "to": "goldenfish19"
-    },
+        "to": "goldenfish18b"
+	},
+	{
+		"id": "goldenfish18b",
+		"text": "(What the heck was that? And how am I supposed to make a choice? I kinda wish all three of them could be my girlfriends… Bubbles is fun and quirky, Faith is dark and edgy, and Becky seems all frigid but I know she has a good heart underneath.)",
+		"background": "A3.1",
+		"to": "goldenfish19"
+	},
     {
         "id": "goldenfish19",
-        "text": "(What the heck was that? And how am I supposed to make a choice? I kinda wish all three of them could be my girlfriends… Bubbles is fun and quirky, Faith is dark and edgy, and Becky seems all frigid but I know she has a good heart underneath.)",
+        "text": "I choose...",
         "background": "A3.1",
         "options": [
             {
