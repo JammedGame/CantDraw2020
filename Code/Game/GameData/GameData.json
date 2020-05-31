@@ -13,7 +13,7 @@
     },
     {
         "id": "beach1",
-        "text": "(Ah, the sun on my face, the sand underneath my feet and a nice drink to top it off, no better way to spend some me-time.)",
+        "text": "(Ah, the sun on my face, the sand beneath my feet and a nice drink to top it off, no better way to spend some me-time.)",
         "background": "A1.2.1",
         "to": "beach2"
     },
@@ -606,7 +606,7 @@
     },
     {
         "id": "goldenfish19.3",
-        "text": "… Fine, I guess it’s up to you. But you should know, I won’t make it easy! But lemme help you out just this once. How about we go up to the surface? I wanna show you something.",
+        "text": "… Fine, I guess it’s up to you. But you should know, I won’t make it easy! Lemme help you out just this once though. How about we go up to the surface? I wanna show you something.",
         "background": "A3.1",
 		"character": "Becky",
 		"expression": "Side",
@@ -1104,6 +1104,279 @@
         "id": "faith28",
         "text": "I guess our strong connection allowed me to take the same form as you. Now we can truly live together as equals.",
 		"background": "Shipwreck",
+		"character": "Player",
+        "to": "end"
+    },
+    {
+        "id": "becky1",
+        "text": "So, what did you want to show me?",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "becky2"
+    },
+    {
+        "id": "becky2",
+        "text": "Well since Bubbles revealed my secret that I love the surface world, I figured I should show you the place that I love the most.",
+		"background": "A2.3",
+		"character": "Becky",
+        "to": "becky3"
+    },
+    {
+        "id": "becky3",
+        "text": "(What could her favorite place really be? Wait... Is that an Amusement park?)",
+		"background": "A2.3",
+        "options": [
+			{
+				"text": "Could it be that you want to visit an Amusement park? Isn’t that a little childish?",
+				"to": "becky3.1"
+			},
+			{
+				"text": "Wow, I didn’t know that there was an Amusement park this close to the beach. Do you want to check it out?",
+				"to": "becky3.2"
+			},
+			{
+				"text": "Oh it’s an Amusement park. I’ve been in one of those a few years ago",
+				"to": "becky3.3"
+			}
+		]
+    },
+    {
+        "id": "becky3.1",
+        "text": "It’s not, you idiot. I’ve never been there but I’ve always wanted to check it out. Hmph.",
+		"background": "A2.3",
+		"character": "Becky",
+		"expression": "Pervert",
+        "to": "becky4"
+    },
+    {
+        "id": "becky3.2",
+        "text": "Really, you would do that for me? Thank you so much.",
+		"background": "A2.3",
+		"character": "Becky",
+		"expression": "Surprised",
+        "to": "becky4"
+    },
+    {
+        "id": "becky3.3",
+        "text": "Oh you’ve been there? Then you probably don’t want to go. Shame, I thought that we could spend some time there.",
+		"background": "A2.3",
+		"character": "Becky",
+		"expression": "Sad",
+        "to": "becky4"
+    },
+    {
+        "id": "becky4",
+        "text": "Well then, it’s settled. We are going to the Amusement park.",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "becky5"
+    },
+    {
+        "id": "becky5",
+        "text": "Yes! But wait. How am I supposed to leave the water and go with you?",
+		"background": "A2.3",
+		"character": "Becky",
+		"expression": "Happy",
+        "to": "becky6"
+    },
+    {
+        "id": "becky6",
+        "text": "Well I brought The Plastic Bag with me. I can fill it with water and you can hop in.",
+		"background": "A2.3",
+		"character": "Player",
+        "to": "becky7"
+    },
+    {
+        "id": "becky7",
+        "text": "Please do. It’s not like I’ll enjoy that, but it’s our only option.",
+		"background": "A2.3",
+		"character": "Becky",
+		"expression": "Side",
+        "to": "becky8"
+    },
+    {
+        "id": "becky8",
+        "text": "(What would be best to place to start our date? Should I ask her?)",
+		"background": "AmusementPark",
+        "to": "becky9"
+    },
+    {
+        "id": "becky9",
+        "text": "Hey Becky. What would you like to see first?",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky10"
+    },
+    {
+        "id": "becky10",
+        "text": "Everything. I want to see all of it at once.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Happy",
+        "to": "becky11"
+    },
+    {
+        "id": "becky11",
+        "text": "Then I know the perfect thing to start with.",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky12"
+    },
+    {
+        "id": "becky12",
+        "text": "What is that?",
+		"background": "AmusementPark",
+		"character": "Becky",
+        "to": "becky13"
+    },
+    {
+        "id": "becky13",
+        "text": "The ferris wheel. The highest point in the amusement park and best view comes with it.",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky14"
+    },
+    {
+        "id": "becky14",
+        "text": "Really? Thank you.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Surprised",
+        "to": "becky15"
+    },
+    {
+        "id": "becky15",
+        "text": "(This is the first time that I see her this excited. She usually gives me the cold shoulder.)",
+		"background": "AmusementPark",
+        "to": "becky16"
+    },
+    {
+        "id": "becky16",
+        "text": "How do you like the view?",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky17"
+    },
+    {
+        "id": "becky17",
+        "text": "It's really amazing.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "ReallySurprised",
+        "options": [
+			{
+				"text": "I’m glad you like it.",
+				"to": "becky17.1"
+			},
+			{
+				"text": "It’s not as amazing as you.",
+				"to": "becky17.2"
+			},
+			{
+				"text": "Huh, you are easily impressed.",
+				"to": "becky17.3"
+			}
+		]
+    },
+    {
+        "id": "becky17.1",
+        "text": "I’m glad that you picked me. Thank you for everything.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Happy",
+        "to": "becky18"
+    },
+    {
+        "id": "becky17.2",
+        "text": "Don’t say stuff like that you idiot.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Side",
+        "to": "becky18"
+    },
+    {
+        "id": "becky17.3",
+        "text": "That’s not true. You are not good enough to impress me. Hmph.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Pervert",
+        "to": "becky18"
+    },
+    {
+        "id": "becky18",
+        "text": "Well anyway, I’m glad that I could make your wish come true. It would be nice if you could spend time on the surface forever.",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky19"
+    },
+    {
+        "id": "becky19",
+        "text": "I would love that too, but fish can’t be out of water for too long.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "Sad",
+        "to": "becky20"
+    },
+    {
+        "id": "becky20",
+        "text": "We’ll find a way to make it work.",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky21"
+    },
+    {
+        "id": "becky21",
+        "text": "(What is that bright light? I can’t see anything.)",
+		"background": "AmusementPark",
+        "to": "becky22"
+    },
+    {
+        "id": "becky22",
+        "text": "Hey, what’s going on? What’s happening to me? I feel really strange.",
+		"background": "AmusementPark",
+		"character": "Becky",
+		"expression": "ReallySurprised",
+        "to": "becky23"
+    },
+    {
+        "id": "becky23",
+        "text": "(The light is disappearing, I can see again.)",
+		"background": "AmusementPark",
+        "to": "becky24"
+    },
+    {
+        "id": "becky24",
+        "text": "What happened? You look like you’ve seen a ghost.",
+		"background": "AmusementPark",
+		"character": "Rebecca",
+        "to": "becky25"
+    },
+    {
+        "id": "becky25",
+        "text": "Rebecca? Ummm, please don't freak out, but take a look in the mirror.",
+		"background": "AmusementPark",
+		"character": "Player",
+        "to": "becky26"
+    },
+    {
+        "id": "becky26",
+        "text": "What?! I’m human, I’m human!!! This is perfect. Now we can live together in the surface world.",
+		"background": "AmusementPark",
+		"character": "Rebecca",
+		"expression": "Excited",
+        "to": "becky27"
+    },
+    {
+        "id": "becky27",
+        "text": "Oh, um... I mean, this is okay, I guess this is acceptable.",
+		"background": "AmusementPark",
+		"character": "Rebecca",
+        "to": "becky28"
+    },
+    {
+        "id": "becky28",
+        "text": "No. It’s more than okay. It’s perfect. You can finally live as a human with me.",
+		"background": "AmusementPark",
 		"character": "Player",
         "to": "end"
     },
