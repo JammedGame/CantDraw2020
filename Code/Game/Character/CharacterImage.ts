@@ -53,6 +53,11 @@ class CharacterImage extends TBX.UI.Panel
                 this.Update();
             }, 200);
         }
+        else if(PreviousCharacter && PreviousCharacter == this._Character)
+        {
+            this.SetImage(this._Character, this._Expression);
+            this.Update();
+        }
         else
         {
             this.Position = new TBX.Vertex(OFFSET, 0, 2);
