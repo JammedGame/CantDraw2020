@@ -28,7 +28,7 @@ class Slider extends TBX.UI.Panel
         this._Percent = Value;
         this.Dock = TBX.UI.DockType.Top;
         this.Size = new TBX.Vertex(800, 80, 1);
-        this.BackColor = TBX.Color.FromString("#444444");
+        this.BackColor = TBX.Color.FromString("#AAAABF");
         this.Style.Border.Width = 0;
         this.Style.Border.Radius = 40;
         this.Style.Values.overflow = "hidden";
@@ -36,13 +36,13 @@ class Slider extends TBX.UI.Panel
         this._Pointer.Dock = TBX.UI.DockType.Left;
         this._Pointer.Size = new TBX.Vertex(800, 80, 1);
         this._Pointer.BackColor = TBX.Color.FromRGBA(244,208,63,255);
-        this._Pointer.Style.Values.transition = "0.1s all";
+        this._Pointer.Style.Values.transition = "0.1s width";
         this.Attach(this._Pointer);
         this.Events.Click.push(this.Click.bind(this));
         this._Label = new TBX.UI.Label(null, Text);
         this._Label.Dock = TBX.UI.DockType.Top;
         this._Label.Position = new TBX.Vertex(0, -40, 0);
-        this._Label.ForeColor = TBX.Color.FromString("#222");
+        this._Label.ForeColor = TBX.Color.White;
         this._Label.Size = new TBX.Vertex(960, 45);
         this._Label.Style.Text.Size = 30;
         this._Label.Style.Border.Width = 0;
