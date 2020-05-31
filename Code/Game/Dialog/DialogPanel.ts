@@ -16,7 +16,7 @@ class DialogPanel extends TBX.UI.Panel
     {
         super();
         this.Dock = TBX.UI.DockType.Bottom;
-        this.Position = new TBX.Vertex(0, 30, 1);
+        this.Position = new TBX.Vertex(0, 30, 2);
         this.Size = new TBX.Vertex(1800, 360, 1);
         this.Style.Border.Color = TBX.Color.FromRGBA(244,208,63,255);
         this.Style.Border.Width = 8;

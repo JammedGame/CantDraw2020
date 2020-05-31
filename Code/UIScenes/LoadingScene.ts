@@ -27,10 +27,10 @@ const USED_IMAGES = [
     "Resources/Textures/Backgrounds/A2.4.png",
     "Resources/Textures/Backgrounds/A3.1.png",
     "Resources/Textures/Backgrounds/A3.2.png",
+    "Resources/Textures/Characters/Bubbles/Idle.png",
     "Resources/Textures/Characters/Bubbles/Sparkle.png",
     "Resources/Textures/Characters/Bubbles/Worried.png",
     "Resources/Textures/Characters/Bubbles/HappyClosed.png",
-    "Resources/Textures/Characters/Bubbles/HappyOpen.png",
     "Resources/Textures/Characters/Bubbles/HappySide.png"
 ];
 

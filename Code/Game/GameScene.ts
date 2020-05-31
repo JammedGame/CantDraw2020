@@ -4,6 +4,7 @@ import * as TBX from "toybox-engine";
 import { DialogEntry } from "./GameData/DialogEntry";
 import { DialogPool } from "./GameData/DialogPool";
 import { DialogPanel } from "./Dialog/DialogPanel";
+import { CharacterImage } from "./Character/CharacterImage";
 
 class GameScene extends TBX.Scene2D
 {
@@ -12,6 +13,7 @@ class GameScene extends TBX.Scene2D
     private _Home: TBX.UI.Button;
     private _Entry: DialogEntry;
     private _Dialog: DialogPanel;
+    private _Character: CharacterImage;
     public constructor(Old?:GameScene)
     {
         super(Old);
@@ -39,6 +41,8 @@ class GameScene extends TBX.Scene2D
         this._Home.Style.Border.Radius = 20;
         this._Home.Events.Click.push(() => TBX.Runner.Current.SwitchScene("Menu"));
         this.Attach(this._Home);
+        this._Character = new CharacterImage();
+        this.Attach(this._Character);
         this._Dialog = new DialogPanel();
         this._Dialog.Next = EntryID => this.OnEntryChanged(EntryID);
         this.Attach(this._Dialog);
@@ -47,6 +51,7 @@ class GameScene extends TBX.Scene2D
     {
         this._Entry = DialogPool.All.FindAtIndex(0);
         this._Dialog.Init(this._Entry);
+        this._Character.Init(this._Entry.CharacterID, this._Entry.Expression);
         this.SetBackground(this._Entry.Background);
     }
     private CreateBackground() : void
@@ -67,6 +72,7 @@ class GameScene extends TBX.Scene2D
     {
         this._Entry = DialogPool.All.Find(EntryID);
         this._Dialog.Init(this._Entry);
+        this._Character.Init(this._Entry.CharacterID, this._Entry.Expression);
         this.SetBackground(this._Entry.Background);
     }
 }
