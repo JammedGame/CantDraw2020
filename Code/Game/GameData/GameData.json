@@ -72,14 +72,14 @@
         "id": "island4",
         "text": "*Cough Cough Cough*",
         "background": "A2.1",
-        "character": "Player",
+        "character": "Me",
         "to": "island6"
     },
     {
         "id": "island6",
         "text": "Where am I? What happened?",
         "background": "A2.1",
-        "character": "Player",
+        "character": "Me",
         "to": "island7"
     },
     {
@@ -100,7 +100,7 @@
         "id": "island9",
         "text": "AAAH!!! WHAT ARE YOU? HOW ARE YOU TALKING TO ME?",
         "background": "A2.2",
-        "character": "Player",
+        "character": "Me",
         "to": "island10"
     },
     {
@@ -114,7 +114,7 @@
         "id": "island11",
         "text": "Sorry sorry, I was just surprised that you can talk. Who are you anyway?",
         "background": "A2.2",
-        "character": "Player",
+        "character": "Me",
         "to": "island12"
     },
     {
@@ -164,7 +164,7 @@
         "id": "island19",
         "text": "Why does she need trash?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "island20"
     },
     {
@@ -350,7 +350,7 @@
         "id": "island30",
         "text": "Can you tell me something more about this Golden fish?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "island31"
     },
     {
@@ -372,7 +372,7 @@
         "id": "island33",
         "text": "Okay, so why are we going there?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "island34"
     },
     {
@@ -387,7 +387,7 @@
         "id": "island35",
         "text": "Important story? What could that be?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "island36"
     },
     {
@@ -443,7 +443,7 @@
         "id": "goldenfish2",
         "text": "Hey guys, what do you know about this Goldenfish? Is this destiny thing super serious? Should I be worried?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "goldenfish3"
     },
     {
@@ -497,7 +497,7 @@
         "id": "goldenfish10",
         "text": "What do you mean “chosen one”?",
         "background": "A3.1",
-        "character": "Player",
+        "character": "Me",
         "to": "goldenfish11"
     },
     {
@@ -524,7 +524,7 @@
         "id": "goldenfish14",
         "text": "Whaaat? What are you saying? I’m just a lonely human guy, that can’t be my destiny!",
         "background": "A3.2",
-        "character": "Player",
+        "character": "Me",
         "to": "goldenfish15"
     },
     {
@@ -544,7 +544,7 @@
         "id": "goldenfish17",
         "text": "What if I chose you, the Goldenfish, as my date?",
         "background": "A3.1",
-        "character": "Player",
+        "character": "Me",
         "to": "goldenfish18"
     },
     {
@@ -572,7 +572,7 @@
         "id": "goldenfish19",
         "text": "I choose...",
 		"background": "A3.1",
-		"character": "Player",
+		"character": "Me",
         "options": [
             {
                 "text": "I choose Bubbles.",
@@ -629,7 +629,7 @@
         "id": "bubbles3",
         "text": "Huh?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles4"
     },
     {
@@ -680,7 +680,7 @@
         "id": "bubbles5",
         "text": "Hey are you more of a pistol shrimp or mantis shrimp person?",
         "background": "A2.3",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles6"
     },
     {
@@ -723,7 +723,7 @@
         "id": "bubbles9",
         "text": "I have a surprise for you, I got us the best table.",
         "background": "Restaurant",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles10"
     },
     {
@@ -737,7 +737,7 @@
         "id": "bubbles11",
         "text": "Exactly! So what do you wanna eat?",
         "background": "Restaurant",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles12"
     },
     {
@@ -765,7 +765,7 @@
         "id": "bubbles14",
         "text": "Actually, we’d like a few minutes in private to decide.",
         "background": "Restaurant",
-        "character": "Player",
+        "character": "Me",
         "options": [
 			{
 				"text": "You don’t have to worry about things like that Bubbles. You’re the only person I want to be with, and nothing will change that.",
@@ -808,7 +808,7 @@
         "id": "bubbles15",
         "text": "I don’t care about that at all, I only care about you.",
         "background": "Restaurant",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles16"
     },
     {
@@ -829,7 +829,7 @@
         "id": "bubbles18",
         "text": "I… I wish I could stay here too! I wish I could be with you forever!",
         "background": "Restaurant",
-        "character": "Player",
+        "character": "Me",
         "to": "bubbles19"
     },
     {
@@ -848,7 +848,7 @@
         "id": "faith2",
         "text": "Sooo, do you have any hobbies?",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "faith3"
     },
     {
@@ -868,7 +868,7 @@
         "id": "faith5",
         "text": "What about clubs and restaurants? Do you like going out?",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "faith6"
     },
     {
@@ -883,7 +883,7 @@
         "id": "faith7",
         "text": "So you just like… Vibe there?",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "faith8"
     },
     {
@@ -897,7 +897,7 @@
         "id": "faith9",
         "text": "Oooh, what music do you listen to?",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "faith10"
     },
     {
@@ -912,7 +912,7 @@
         "id": "faith11",
         "text": "Try me.",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "faith12"
     },
     {
@@ -969,7 +969,7 @@
         "id": "faith14",
         "text": "Wow, that’s one wicked shipwreck!",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "faith15"
     },
     {
@@ -990,7 +990,7 @@
         "id": "faith17",
         "text": "So real talk, this is actually your favourite place isn’t it? I get the feeling you spend a lot of time here, don’t you? What about spending time with your family or meeting new people?",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "faith18"
     },
     {
@@ -1046,7 +1046,7 @@
         "id": "faith20",
         "text": "Look Faith, I have something to admit, I’m actually not so different from you. I live a boring life, work a boring job, and don’t really hang out with anyone ever. That was yesterday, but now all of a sudden I’m destined to become “king of the seas” or whatever? I guess what I’m trying to say is, we all have potential to become something great, and you never really know what tomorrow brings, and sometimes you just have to blow off work and go to the beach.",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "faith21"
     },
     {
@@ -1060,7 +1060,7 @@
         "id": "faith22",
         "text": "Maybe just try one new thing from time to time?",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "faith23"
     },
     {
@@ -1075,7 +1075,7 @@
         "id": "faith24",
         "text": "Awesome. You know, telling you about my life made me realize, I don’t really wanna go back. This place is much cooler than my home, and I really trust you.",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "faith25"
     },
     {
@@ -1104,14 +1104,14 @@
         "id": "faith28",
         "text": "I guess our strong connection allowed me to take the same form as you. Now we can truly live together as equals.",
 		"background": "Shipwreck",
-		"character": "Player",
+		"character": "Me",
         "to": "end"
     },
     {
         "id": "becky1",
         "text": "So, what did you want to show me?",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "becky2"
     },
     {
@@ -1168,7 +1168,7 @@
         "id": "becky4",
         "text": "Well then, it’s settled. We are going to the Amusement park.",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "becky5"
     },
     {
@@ -1183,7 +1183,7 @@
         "id": "becky6",
         "text": "Well I brought The Plastic Bag with me. I can fill it with water and you can hop in.",
 		"background": "A2.3",
-		"character": "Player",
+		"character": "Me",
         "to": "becky7"
     },
     {
@@ -1204,7 +1204,7 @@
         "id": "becky9",
         "text": "Hey Becky. What would you like to see first?",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky10"
     },
     {
@@ -1219,7 +1219,7 @@
         "id": "becky11",
         "text": "Then I know the perfect thing to start with.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky12"
     },
     {
@@ -1233,7 +1233,7 @@
         "id": "becky13",
         "text": "The ferris wheel. The highest point in the amusement park and best view comes with it.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky14"
     },
     {
@@ -1254,7 +1254,7 @@
         "id": "becky16",
         "text": "How do you like the view?",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky17"
     },
     {
@@ -1306,7 +1306,7 @@
         "id": "becky18",
         "text": "Well anyway, I’m glad that I could make your wish come true. It would be nice if you could spend time on the surface forever.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky19"
     },
     {
@@ -1321,7 +1321,7 @@
         "id": "becky20",
         "text": "We’ll find a way to make it work.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky21"
     },
     {
@@ -1355,7 +1355,7 @@
         "id": "becky25",
         "text": "Rebecca? Ummm, please don't freak out, but take a look in the mirror.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "becky26"
     },
     {
@@ -1377,7 +1377,7 @@
         "id": "becky28",
         "text": "No. It’s more than okay. It’s perfect. You can finally live as a human with me.",
 		"background": "AmusementPark",
-		"character": "Player",
+		"character": "Me",
         "to": "end"
     },
 	{
