@@ -566,20 +566,20 @@
         "text": "Oooh, we’re gonna have so much fun, you’ll see! You’ll never have a boring time with me! Hey, I have an idea,I’m hungry, so let’s go get dinner? I know the best restaurant around!",
         "background": "8",
         "character": "Bubbles",
-        "to": "bubbles1"
+        "to": "house1"
     },
     {
         "id": "goldenfish19.2",
         "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you wanna?",
         "background": "8",
         "character": "Faith",
-        "to": "faith1"
+        "to": "house1"
     },
     {
         "id": "goldenfish19.3",
         "text": "… Fine, I guess it’s up to you. But you should know, I won’t make it easy! But lemme help you out just this once. How about we go up to the surface? I wanna show you something.",
         "background": "8",
         "character": "Becky",
-        "to": "becky1"
+        "to": "house1"
     }
 ]
