@@ -31,7 +31,12 @@ const USED_IMAGES = [
     "Resources/Textures/Characters/Bubbles/Sparkle.png",
     "Resources/Textures/Characters/Bubbles/Worried.png",
     "Resources/Textures/Characters/Bubbles/HappyClosed.png",
-    "Resources/Textures/Characters/Bubbles/HappySide.png"
+    "Resources/Textures/Characters/Bubbles/HappySide.png",
+    "Resources/Textures/Characters/Faith/Idle.png",
+    "Resources/Textures/Characters/Faith/Blush.png",
+    "Resources/Textures/Characters/Faith/Side.png",
+    "Resources/Textures/Characters/Faith/SideBlush.png",
+    "Resources/Textures/Characters/Faith/Angry.png",
 ];
 
 class LoadingScene extends UIScene
