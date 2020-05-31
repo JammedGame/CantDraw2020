@@ -8,6 +8,7 @@ const DEFAULT_EXPRESSION = "Idle";
 const CHARACTERS_WITH_ART = [
     "Bubbles",
     "Faith",
+    "Becky",
     "Goldenfish"
 ];
 

@@ -37,6 +37,16 @@ const USED_IMAGES = [
     "Resources/Textures/Characters/Faith/Side.png",
     "Resources/Textures/Characters/Faith/SideBlush.png",
     "Resources/Textures/Characters/Faith/Angry.png",
+    "Resources/Textures/Characters/Becky/Idle.png",
+    "Resources/Textures/Characters/Becky/Side.png",
+    "Resources/Textures/Characters/Becky/Suprised.png",
+    "Resources/Textures/Characters/Becky/ReallySuprised.png",
+    "Resources/Textures/Characters/Becky/Silent.png",
+    "Resources/Textures/Characters/Becky/Sad.png",
+    "Resources/Textures/Characters/Becky/Pervert.png",
+    "Resources/Textures/Characters/Becky/Happy.png",
+    "Resources/Textures/Characters/Goldenfish/Idle.png",
+    "Resources/Textures/Characters/Goldengish/Evil.png",
 ];
 
 class LoadingScene extends UIScene
