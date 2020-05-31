@@ -555,14 +555,14 @@
     },
     {
         "id": "goldenfish19.1",
-        "text": "Oooh, we’re gonna have so much fun, you’ll see! You’ll never have a boring time with me! Hey, I have an idea,I’m hungry, so let’s go get dinner? I know the best restaurant around!",
+        "text": "Oooh, we’re gonna have so much fun, you’ll see! You’ll never have a boring time with me! Hey, I have an idea, I’m hungry, so let’s go get dinner? I know the best restaurant around!",
         "background": "A3.1",
         "character": "Bubbles",
         "to": "house1"
     },
     {
         "id": "goldenfish19.2",
-        "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you wanna?",
+        "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you want to?",
         "background": "A3.1",
         "character": "Faith",
         "to": "house1"
