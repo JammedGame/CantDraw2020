@@ -51,140 +51,133 @@
     {
         "id": "island1",
         "text": "Are you okay?",
-        "background": "8",
+        "background": "A2.1",
         "character": "???",
         "to": "island2"
     },
     {
         "id": "island2",
         "text": "Hopefully we got him out on time.",
-        "background": "8",
+        "background": "A2.1",
         "character": "???",
         "to": "island3"
     },
     {
         "id": "island3",
         "text": "If he dies, he dies.",
-        "background": "8",
+        "background": "A2.1",
         "character": "???",
         "to": "island4"
     },
     {
         "id": "island4",
         "text": "*Cough Cough Cough*",
-        "background": "8",
-        "character": "Player",
-        "to": "island5"
-    },
-    {
-        "id": "island5",
-        "text": "Where am I? What happened?",
-        "background": "8",
+        "background": "A2.1",
         "character": "Player",
         "to": "island6"
     },
     {
         "id": "island6",
         "text": "Where am I? What happened?",
-        "background": "8",
+        "background": "A2.1",
         "character": "Player",
         "to": "island7"
     },
     {
         "id": "island7",
         "text": "You were drowning.",
-        "background": "8",
+        "background": "A2.2",
         "character": "Duck",
         "to": "island8"
     },
     {
         "id": "island8",
         "text": "We got you out of the water.",
-        "background": "8",
+        "background": "A2.2",
         "character": "Crab",
         "to": "island9"
     },
     {
         "id": "island9",
         "text": "AAAH!!! WHAT ARE YOU? HOW ARE YOU TALKING TO ME?",
-        "background": "8",
+        "background": "A2.2",
         "character": "Player",
         "to": "island10"
     },
     {
         "id": "island10",
         "text": "We saved you, and that's how you repay us? Hmph.",
-        "background": "8",
+        "background": "A2.2",
         "character": "Pufferfish",
         "to": "island11"
     },
     {
         "id": "island11",
         "text": "Sorry sorry, I was just surprised that all of you can talk. Who are you anyway?",
-        "background": "8",
+        "background": "A2.2",
         "character": "Player",
         "to": "island12"
     },
     {
         "id": "island12",
         "text": "My name is Bubbles. I am a crab.",
-        "background": "8",
+        "background": "A2.2",
         "character": "Crab",
         "to": "island13"
     },
     {
         "id": "island13",
         "text": "I’m Faith, the duck.",
-        "background": "8",
+        "background": "A2.2",
         "character": "Duck",
         "to": "island14"
     },
     {
         "id": "island14",
         "text": "...",
-        "background": "8",
+        "background": "A2.2",
         "character": "Pufferfish",
         "to": "island15"
     },
     {
         "id": "island15",
         "text": "The pufferfish over there is Becky.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island16"
     },
     {
         "id": "island16",
         "text": "That's Rebecca to you!",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "island17"
     },
     {
         "id": "island17",
         "text": "When will we send this trash to the Goldenfish?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "island18"
     },
     {
         "id": "island19",
         "text": "Why does she need trash?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Player",
         "to": "island20"
     },
     {
         "id": "island20",
         "text": "She meant you.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island21"
     },
     {
         "id": "island21",
         "text": "Don't worry, Becky is always like that towards new people.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "options": [
             {
@@ -204,69 +197,69 @@
     {
         "id": "island21.1",
         "text": "Well it's a long story.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island21.1.1"
     },
     {
         "id": "island21.1.1",
         "text": "*5h later screen*",
-        "background": "8",
+        "background": "A2.3",
         "to": "island21.1.2"
     },
     {
         "id": "island21.1.2",
         "text": "And that's how we met.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island22"
     },
     {
         "id": "island21.2",
         "text": "She is a fish that's golden and she has a story to tell you.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island22"
     },
     {
         "id": "island21.3",
         "text": "You pervert! *Slap*",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "island22"
     },
     {
         "id": "island22",
         "text": "Come on, we have to start moving.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island23"
     },
     {
         "id": "island23",
         "text": "Let’s go.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island24"
     },
     {
         "id": "island24",
         "text": "It won’t take us long to get there.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island25"
     },
     {
         "id": "island25",
         "text": "Oh look at that, It’s my favorite park over there. I didn’t know it was this close to the surface.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Bubbles",
         "to": "island26"
     },
     {
         "id": "island26",
         "text": "Bubbles we don’t have time for this.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Faith",
         "options": [
             {
@@ -286,266 +279,266 @@
     {
         "id": "island26.1",
         "text": "...",
-        "background": "8",
+        "background": "A2.4",
         "character": "Becky",
         "to": "island26.1.2"
     },
     {
         "id": "island26.1.2",
         "text": "She loves the surface world.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Bubbles",
         "to": "island26.1.3"
     },
     {
         "id": "island26.1.3",
         "text": "SHUT UP BUBBLES!",
-        "background": "8",
+        "background": "A2.4",
         "character": "Becky",
         "to": "island27"
     },
     {
         "id": "island26.2",
         "text": "It has really fun playground and merry go round.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Bubbles",
         "to": "island27"
     },
     {
         "id": "island26.3",
         "text": "I do, it’s my rooftop. No one bothers me there.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Faith",
         "to": "island27"
     },
     {
         "id": "island27",
         "text": "Anyway we must hurry to Goldie, we can come back here later.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Faith",
         "to": "island28"
     },
     {
         "id": "island28",
         "text": "You promise?",
-        "background": "8",
+        "background": "A2.4",
         "character": "Bubbles",
         "to": "island29"
     },
     {
         "id": "island29",
         "text": "I do.",
-        "background": "8",
+        "background": "A2.4",
         "character": "Faith",
         "to": "island30"
     },
     {
         "id": "island30",
         "text": "Can you tell me something more about this Golden fish?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Player",
         "to": "island31"
     },
     {
         "id": "island31",
         "text": "She’s like a super important fish",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island32"
     },
     {
         "id": "island32",
         "text": "She is the smartest fish in the sea.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island33"
     },
     {
         "id": "island33",
         "text": "Okay, so why are we going there?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Player",
         "to": "island34"
     },
     {
         "id": "island34",
         "text": "I told you, she has a really important story to tell you.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island35"
     },
     {
         "id": "island35",
         "text": "Important story? What could that be?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Player",
         "to": "island36"
     },
     {
         "id": "island36",
         "text": "She didn’t tell us, but I think she mistook you for someone important.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "island37"
     },
     {
         "id": "island37",
         "text": "Becky be nice, we don’t need your mood now.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "island38"
     },
     {
         "id": "island38",
         "text": "Hmph.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "island39"
     },
     {
         "id": "island39",
         "text": "(Important story you say. I can’t wait to hear it. But after these three, I don’t think that anything can surprise me anymore.)",
-        "background": "8",
+        "background": "A2.3",
         "to": "island40"
     },
     {
         "id": "island40",
         "text": "I heard that she’s gonna read you your destiny. Just don’t get too excited.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "island41"
     },
     {
         "id": "island41",
         "text": "I can see her cave from here.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "goldenfish1"
     },
     {
         "id": "goldenfish1",
         "text": "(I’m getting kinda nervous. What kind of destiny could be in store for me? Should I be taking this seriously at all?)",
-        "background": "8",
+        "background": "A2.3",
         "to": "goldenfish2"
     },
     {
         "id": "goldenfish2",
         "text": "Hey guys, what do you know about this Goldenfish? Is this destiny thing super serious? Should I be worried?",
-        "background": "8",
+        "background": "A2.3",
         "character": "Player",
         "to": "goldenfish3"
     },
     {
         "id": "goldenfish3",
         "text": "(The three of them just looked at each other. Uh-oh.)",
-        "background": "8",
+        "background": "A2.3",
         "to": "goldenfish4"
     },
     {
         "id": "goldenfish4",
         "text": "The Goldenfish prophecies are not to be taken lightly, an encounter with her could change the course of your life, but it’s important that you hear what she has to say.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Becky",
         "to": "goldenfish5"
     },
     {
         "id": "goldenfish5",
         "text": "You can do it, be brave, I believe in you!",
-        "background": "8",
+        "background": "A2.3",
         "character": "Bubbles",
         "to": "goldenfish6"
     },
     {
         "id": "goldenfish6",
         "text": "Just go with it, no use trying to fight destiny.",
-        "background": "8",
+        "background": "A2.3",
         "character": "Faith",
         "to": "goldenfish7"
     },
     {
         "id": "goldenfish7",
         "text": "(I’m still nervous. *deep breath* Here goes nothing. Huh, I expected something more from this place, it’s just one big room with a pool in the middle. There’s something big in the pool. Wait, that’s a huge fish, a goldfish.)",
-        "background": "8",
+        "background": "A3.1",
         "to": "goldenfish8"
     },
     {
         "id": "goldenfish8",
         "text": "Step forth, I’ve been waiting for you, chosen one.",
-        "background": "8",
+        "background": "A3.1",
         "character": "???",
         "to": "goldenfish9"
     },
     {
         "id": "goldenfish9",
         "text": "(That must be the Goldenfish.)",
-        "background": "8",
+        "background": "A3.1",
         "to": "goldenfish10"
     },
     {
         "id": "goldenfish10",
         "text": "What do you mean “chosen one”?",
-        "background": "8",
+        "background": "A3.1",
         "character": "Player",
         "to": "goldenfish11"
     },
     {
         "id": "goldenfish11",
         "text": "You are here for a reason. I will speak your destiny now.",
-        "background": "8",
+        "background": "A3.1",
         "character": "The Goldenfish",
         "to": "goldenfish12"
     },
     {
         "id": "goldenfish12",
         "text": "(What is she doing? Is that a plastic bag coming out of the pool? And it’s completely dry! Oh now she’s pulling out what looks like an old receipt and reading it...)",
-        "background": "8",
+        "background": "A3.1",
         "to": "goldenfish13"
     },
     {
         "id": "goldenfish13",
         "text": "You are to become the king of the seas, and rule over all the waters and creatures that inhabit them.",
-        "background": "8",
+        "background": "A3.2",
         "character": "The Goldenfish",
         "to": "goldenfish14"
     },
     {
         "id": "goldenfish14",
         "text": "Whaaat? What are you saying? I’m just a lonely human guy, that can’t be my destiny!",
-        "background": "8",
+        "background": "A3.2",
         "character": "Player",
         "to": "goldenfish15"
     },
     {
         "id": "goldenfish15",
         "text": "Silence! I have spoken. This which “cannot be your destiny” is your destiny nonetheless, and you have no choice in the matter. Furthermore, you must select a partner (she gestures at Bubbles, Faith and Becky standing right behind me) to rule at your side. You must make this choice before you leave this cave, and you must embark on a date with your chosen partner immediately.",
-        "background": "8",
+        "background": "A3.2",
         "character": "The Goldenfish",
         "to": "goldenfish16"
     },
     {
         "id": "goldenfish16",
         "text": "(It looks like they are shocked as much as I am. This is all so sudden, how am I supposed to make this kind of choice right here right now?)",
-        "background": "8",
+        "background": "A3.1",
         "to": "goldenfish17"
     },
     {
         "id": "goldenfish17",
         "text": "What if I chose you, the Goldenfish, as my date?",
-        "background": "8",
+        "background": "A3.1",
         "character": "Player",
         "to": "goldenfish18"
     },
     {
         "id": "goldenfish18",
         "text": "You would offer this honour to ME? In place of a king of the seas, you would have a queen to rule over the oceans and lands of this world? (She begins to shine even more brightly than before, blinding me and the others.) Yes, with the power of the seas, and my omniscience, I would become truly eternal and all-powerful. (The light dies down suddenly.) Hah! I refuse your offer, human. This story doesn’t need a supervillain. Now make your choice quickly, and leave this place.",
-        "background": "8",
+        "background": "A3.1",
         "character": "The Goldenfish",
         "to": "goldenfish19"
     },
     {
         "id": "goldenfish19",
         "text": "(What the heck was that? And how am I supposed to make a choice? I kinda wish all three of them could be my girlfriends… Bubbles is fun and quirky, Faith is dark and edgy, and Becky seems all frigid but I know she has a good heart underneath.)",
-        "background": "8",
+        "background": "A3.1",
         "options": [
             {
                 "text": "I choose Bubbles.",
@@ -564,21 +557,21 @@
     {
         "id": "goldenfish19.1",
         "text": "Oooh, we’re gonna have so much fun, you’ll see! You’ll never have a boring time with me! Hey, I have an idea,I’m hungry, so let’s go get dinner? I know the best restaurant around!",
-        "background": "8",
+        "background": "A3.1",
         "character": "Bubbles",
         "to": "house1"
     },
     {
         "id": "goldenfish19.2",
         "text": "Huh, I never thought you’d choose me, I thought you kinda hated me… Well, I’ll do my best I guess. Hey, have you ever seen an abandoned ship? Do you wanna?",
-        "background": "8",
+        "background": "A3.1",
         "character": "Faith",
         "to": "house1"
     },
     {
         "id": "goldenfish19.3",
         "text": "… Fine, I guess it’s up to you. But you should know, I won’t make it easy! But lemme help you out just this once. How about we go up to the surface? I wanna show you something.",
-        "background": "8",
+        "background": "A3.1",
         "character": "Becky",
         "to": "house1"
     }
