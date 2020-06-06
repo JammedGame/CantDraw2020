@@ -637,7 +637,7 @@
         "text": "Yup! It’s called carcinisation, it’s the tendency for nature to evolve a crustacean into the perfect crab-like shape. She grins and flexes her claws with excitement.",
         "background": "A2.3",
         "character": "Bubbles",
-		"expression": "HappyClosed",
+		"expression": "Flex",
         "options": [
 			{
 				"text": "What about animals that eat crabs, like birds and big fish, aren’t they superior creatures?",
@@ -834,8 +834,14 @@
     },
     {
         "id": "bubbles19",
-        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. Wait. I HAVE CLAWS!? Our wishes came true, and I am a crab now! I’m finally truly happy.)",
-        "background": "Restaurant",
+        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. Wait. I HAVE CLAWS!?)",
+        "background": "Restaurant2",
+		"to": "bubbles20"
+	},
+    {
+        "id": "bubbles20",
+        "text": "(Our wishes came true, and I am a crab now! I’m finally truly happy.)",
+        "background": "Restaurant3",
 		"to": "end"
 	},
     {
@@ -1088,13 +1094,13 @@
     },
     {
         "id": "faith26",
-        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. I see a smile. Is Faith smiling?)",
-		"background": "Shipwreck",
+        "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again.)",
+		"background": "Shipwreck2",
         "to": "faith27"
     },
     {
         "id": "faith27",
-        "text": "Wh-- what just happened? You're a duck now?",
+        "text": "(I see a smile. Is Faith smiling?) Wh-- what just happened? You're a duck now?",
 		"background": "Shipwreck",
 		"character": "Faith",
 		"expression": "Blush",
@@ -1103,7 +1109,7 @@
     {
         "id": "faith28",
         "text": "I guess our strong connection allowed me to take the same form as you. Now we can truly live together as equals.",
-		"background": "Shipwreck",
+		"background": "Shipwreck3",
 		"character": "Me",
         "to": "end"
     },
@@ -1253,14 +1259,14 @@
     {
         "id": "becky16",
         "text": "How do you like the view?",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Me",
         "to": "becky17"
     },
     {
         "id": "becky17",
         "text": "It's really amazing.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Becky",
 		"expression": "ReallySurprised",
         "options": [
@@ -1281,7 +1287,7 @@
     {
         "id": "becky17.1",
         "text": "I’m glad that you picked me. Thank you for everything.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Becky",
 		"expression": "Happy",
         "to": "becky18"
@@ -1289,7 +1295,7 @@
     {
         "id": "becky17.2",
         "text": "Don’t say stuff like that you idiot.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Becky",
 		"expression": "Side",
         "to": "becky18"
@@ -1297,7 +1303,7 @@
     {
         "id": "becky17.3",
         "text": "That’s not true. You are not good enough to impress me. Hmph.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Becky",
 		"expression": "Pervert",
         "to": "becky18"
@@ -1305,14 +1311,14 @@
     {
         "id": "becky18",
         "text": "Well anyway, I’m glad that I could make your wish come true. It would be nice if you could spend time on the surface forever.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Me",
         "to": "becky19"
     },
     {
         "id": "becky19",
         "text": "I would love that too, but fish can’t be out of water for too long.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Becky",
 		"expression": "Sad",
         "to": "becky20"
@@ -1320,20 +1326,20 @@
     {
         "id": "becky20",
         "text": "We’ll find a way to make it work.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Me",
         "to": "becky21"
     },
     {
         "id": "becky21",
         "text": "(What is that bright light? I can’t see anything.)",
-		"background": "AmusementPark",
+		"background": "AmusementPark3",
         "to": "becky22"
     },
     {
         "id": "becky22",
         "text": "Hey, what’s going on? What’s happening to me? I feel really strange.",
-		"background": "AmusementPark",
+		"background": "AmusementPark3",
 		"character": "Becky",
 		"expression": "ReallySurprised",
         "to": "becky23"
@@ -1341,42 +1347,41 @@
     {
         "id": "becky23",
         "text": "(The light is disappearing, I can see again.)",
-		"background": "AmusementPark",
+		"background": "AmusementPark3",
         "to": "becky24"
     },
     {
         "id": "becky24",
         "text": "What happened? You look like you’ve seen a ghost.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Rebecca",
         "to": "becky25"
     },
     {
         "id": "becky25",
         "text": "Rebecca? Ummm, please don't freak out, but take a look in the mirror.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Me",
         "to": "becky26"
     },
     {
         "id": "becky26",
         "text": "What?! I’m human, I’m human!!! This is perfect. Now we can live together in the surface world.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Rebecca",
-		"expression": "Excited",
         "to": "becky27"
     },
     {
         "id": "becky27",
         "text": "Oh, um... I mean, this is okay, I guess this is acceptable.",
-		"background": "AmusementPark",
+		"background": "AmusementPark2",
 		"character": "Rebecca",
         "to": "becky28"
     },
     {
         "id": "becky28",
         "text": "No. It’s more than okay. It’s perfect. You can finally live as a human with me.",
-		"background": "AmusementPark",
+		"background": "AmusementPark4",
 		"character": "Me",
         "to": "end"
     },

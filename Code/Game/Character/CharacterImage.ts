@@ -9,7 +9,8 @@ const CHARACTERS_WITH_ART = [
     "Bubbles",
     "Faith",
     "Becky",
-    "Goldenfish"
+	"Goldenfish",
+	"Rebecca"
 ];
 
 class CharacterImage extends TBX.UI.Panel
