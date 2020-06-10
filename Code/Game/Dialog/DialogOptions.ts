@@ -49,6 +49,7 @@ class DialogOptionsPanel extends TBX.UI.Panel
         Option.Position = new TBX.Vertex(0, 20 + 80 * Index, 0);
         Option.Dock = TBX.UI.DockType.Top;
         Option.Style.Text.Size = 24;
+        Option.ForeColor = TBX.Color.FromRGBA(153,153,255,255);
         Option.Data["Index"] = Index;
         Option.Style.Values.cursor = "pointer";
         Option.Style.Values.transition = "0.5s all";
@@ -67,13 +68,13 @@ class DialogOptionsPanel extends TBX.UI.Panel
     private OptionMouseEnter(Sender: TBX.UI.Label) : void
     {
         Sender.Style.Text.Size = 30;
-        Sender.ForeColor = TBX.Color.FromRGBA(244,208,63,255);
+        Sender.ForeColor = TBX.Color.FromRGBA(221,165,34,255);
         Sender.Update();
     }
     private OptionMouseLeave(Sender: TBX.UI.Label) : void
     {
         Sender.Style.Text.Size = 24;
-        Sender.ForeColor = TBX.Color.White;
+        Sender.ForeColor = TBX.Color.FromRGBA(153,153,255,255);
         Sender.Update();
     }
 }

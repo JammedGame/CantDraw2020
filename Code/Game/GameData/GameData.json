@@ -518,6 +518,11 @@
     },
     {
         "id": "goldenfish13",
+        "background": "A3.2",
+        "to": "goldenfish13A"
+    },
+    {
+        "id": "goldenfish13A",
         "text": "You are to become the king of the seas, and rule over all the waters and creatures that inhabit them.",
         "background": "A3.2",
         "character": "Goldenfish",
@@ -837,6 +842,7 @@
         "id": "bubbles19",
         "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again. Wait. I HAVE CLAWS!?)",
         "background": "Restaurant2",
+		"music": "Silence",
 		"to": "bubbles20"
 	},
     {
@@ -849,6 +855,7 @@
 		"id": "bubbles21",
 		"text": "THE END",
 		"background": "Restaurant3",
+		"music": "Default",
 		"options": [
 			{
 				"text": "Start over",
@@ -1108,6 +1115,7 @@
         "id": "faith26",
         "text": "(Aaah, what’s this blinding light? I feel like every cell in my body is about to explode! What the heck! I feel like my body is twisting and turning inside-out! The light disappeared, I can see again.)",
 		"background": "Shipwreck2",
+		"music": "Silence",
         "to": "faith27"
     },
     {
@@ -1129,6 +1137,7 @@
 		"id": "faith29",
 		"text": "THE END",
 		"background": "Shipwreck3",
+		"music": "Default",
 		"options": [
 			{
 				"text": "Start over",
@@ -1357,6 +1366,7 @@
         "id": "becky21",
         "text": "(What is that bright light? I can’t see anything.)",
 		"background": "AmusementPark3",
+		"music": "Silence",
         "to": "becky22"
     },
     {
@@ -1412,6 +1422,7 @@
 		"id": "becky29",
 		"text": "THE END",
 		"background": "AmusementPark4",
+		"music": "Default",
 		"options": [
 			{
 				"text": "Start over",

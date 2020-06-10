@@ -39,8 +39,13 @@ class DialogPanel extends TBX.UI.Panel
     public Init(Entry: DialogEntry) : void
     {
         this._Entry = Entry;
+
+        let transparentPanel = !Entry.Text && Entry.Options.length < 2;
+        this._Text.Active = !transparentPanel;
+        this.Style.Border.Color = TBX.Color.FromRGBA(244,208,63,transparentPanel ? 0 : 255);
+        this.BackColor = TBX.Color.FromRGBA(0,0,30,transparentPanel ? 0 : 150);
         this._Text.Text = Entry.Text;
-        if(this._Entry.Options.length < 2) this._Text.Size.Y = 240;
+        if(Entry.Options.length < 2) this._Text.Size.Y = 240;
         else this._Text.Size.Y = 80;
         this._Text.Update();
         this._Options.Init(Entry.Options);
