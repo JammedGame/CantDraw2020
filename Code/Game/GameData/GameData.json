@@ -688,20 +688,14 @@
         "text": "Hey are you more of a pistol shrimp or mantis shrimp person?",
         "background": "A2.3",
         "character": "Me",
-        "to": "bubbles6"
-    },
-    {
-        "id": "bubbles6",
-        "text": "(Her eyes light up.)",
-        "background": "A2.3",
         "to": "bubbles7"
     },
     {
         "id": "bubbles7",
-        "text": "Oooh, mantis shrimp are so cool, those eyes with over a dozen photoreceptors! They can probably see colours we can’t even imagine! And those powerful clubbed claws… Oh but now that I mention claws, pistol shrimp are wicked! Did you know they can click their claws so powerfully that it creates a shockwave which stuns other creatures? IMAGINE--",
+        "text": "(Her eyes light up.) Oooh, mantis shrimp are so cool, those eyes with over a dozen photoreceptors! They can probably see colours we can’t even imagine! And those powerful clubbed claws… Oh but now that I mention claws, pistol shrimp are wicked! Did you know they can click their claws so powerfully that it creates a shockwave which stuns other creatures? IMAGINE--",
         "background": "A2.3",
         "character": "Bubbles",
-		"expression": "Sparkle",
+        "expression": "Sparkle",
         "to": "bubbles7b"
     },
     {
