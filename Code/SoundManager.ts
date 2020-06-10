@@ -4,15 +4,18 @@ import * as TBX from "toybox-engine";
 
 const VOLUME_FACTOR = 100;
 const DEFAULT_MASTER_VOLUME = 1.0;
-const DEFAULT_MUSIC_VOLUME = 0.8;
+const DEFAULT_MUSIC_VOLUME = 0.4;
 const DEFAULT_SOUND_VOLUME = 0.8;
+const DEFAULT_MUSIC_NAME = "Default";
 
 class SoundManager
 {
     private static Current:SoundManager;
     private _Sounds:any;
     private _SoundsPaths:any[];
-    private _Music:TBX.SoundObject;
+    private _Music:any;
+    private _MusicPaths:any[];
+    private _CurrentMusicName:string;
     private _MasterVolume:number;
     private _MusicVolume:number;
     private _SoundVolume:number;
@@ -45,18 +48,27 @@ class SoundManager
         this._MasterVolume = DEFAULT_MASTER_VOLUME;
         this._MusicVolume = DEFAULT_MUSIC_VOLUME;
         this._SoundVolume = DEFAULT_SOUND_VOLUME;
-        this._Music = new TBX.SoundObject("Resources/Sounds/Music.mp3");
-        this._Music.Volume = VOLUME_FACTOR * DEFAULT_MUSIC_VOLUME;
-        this._Music.Looped = true;
-        this._Music.Play();
-        this._SoundsPaths = 
-        [
+        this._MusicPaths = [
+            { Name:DEFAULT_MUSIC_NAME, File:"Music.mp3", Looped:true },
+            { Name:"Dark", File:"DarkMusic.mp3", Looped:true }
+        ];
+        this._Music = {};
+        for(let i in this._MusicPaths)
+        {
+            let Music:TBX.SoundObject = new TBX.SoundObject("Resources/Sounds/"+this._MusicPaths[i].File);
+            Music.Autoplay = !!this._MusicPaths[i].Autoplay;
+            Music.Looped = !!this._MusicPaths[i].Looped;
+            Music.Volume = this._MusicPaths[i].Volume || VOLUME_FACTOR * DEFAULT_MUSIC_VOLUME;
+            this._Music[this._MusicPaths[i].Name] = Music;
+        }
+        this.PlayMusic(DEFAULT_MUSIC_NAME);
+        this._SoundsPaths = [
             { Name:"Special", File:"Special.wav" }
         ];
         this._Sounds = {};
         for(let i in this._SoundsPaths)
         {
-            let Sound:TBX.SoundObject = new TBX.SoundObject("Resources/Sounds/"+this._SoundsPaths[i].Path);
+            let Sound:TBX.SoundObject = new TBX.SoundObject("Resources/Sounds/"+this._SoundsPaths[i].File);
             Sound.Autoplay = !!this._SoundsPaths[i].Autoplay;
             Sound.Looped = !!this._SoundsPaths[i].Looped;
             Sound.Volume = this._SoundsPaths[i].Volume || VOLUME_FACTOR * DEFAULT_SOUND_VOLUME;
@@ -71,12 +83,38 @@ class SoundManager
     {
         this.Current.Play(SoundName);
     }
+    public PlayMusic(MusicName:string) : void
+    {
+        if (!!MusicName && MusicName != this._CurrentMusicName)
+        {
+            if (this._Music.hasOwnProperty(this._CurrentMusicName))
+            {
+                this._Music[this._CurrentMusicName].Sound.stop();
+            }
+            if (this._Music.hasOwnProperty(MusicName))
+            {
+                this._Music[MusicName].Play();
+            }
+            this._CurrentMusicName = MusicName;
+        }
+    }
+    public static PlayMusic(MusicName:string) : void
+    {
+        this.Current.PlayMusic(MusicName);
+    }
     private UpdateVolumes() : void
     {
-        this._Music.Volume = this._MasterVolume * this._MusicVolume;
+        for(let i in this._MusicPaths)
+        {
+            this._Music[this._MusicPaths[i].Name].Volume = this._MasterVolume * this._MusicVolume;
+        }
         for(let i in this._SoundsPaths)
         {
             this._Sounds[this._SoundsPaths[i].Name].Volume = this._MasterVolume * this._SoundVolume;
         }
+    }
+    public static UpdateVolumes() : void
+    {
+        this.Current.UpdateVolumes();
     }
 }

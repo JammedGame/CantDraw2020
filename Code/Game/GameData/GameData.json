@@ -2,7 +2,8 @@
     {
         "id": "house1",
         "text": "(My life is always the same, working a boring nine to five job, not really going out or doing anything interesting.)",
-        "background": "A1.1",
+		"background": "A1.1",
+		"music": "Default",
         "to": "house2"
     },
     {
@@ -477,14 +478,16 @@
     {
         "id": "goldenfish7",
         "text": "(I’m still nervous. *deep breath* Here goes nothing. Huh, I expected something more from this place, it’s just one big room with a pool in the middle. There’s something big in the pool. Wait, that’s a huge fish, a goldfish.)",
-        "background": "A3.1",
+		"background": "A3.1",
+		"music": "Silence",
         "to": "goldenfish8"
     },
     {
         "id": "goldenfish8",
         "text": "Step forth, I’ve been waiting for you, chosen one.",
         "background": "A3.1",
-        "character": "???",
+		"character": "???",
+		"music": "Dark",
         "to": "goldenfish9"
     },
     {
@@ -573,6 +576,7 @@
         "text": "I choose...",
 		"background": "A3.1",
 		"character": "Me",
+		"music": "Silence",
         "options": [
             {
                 "text": "I choose Bubbles.",
@@ -594,6 +598,7 @@
         "background": "A3.1",
         "character": "Bubbles",
 		"expression": "HappyClosed",
+		"music": "Default",
         "to": "bubbles1"
     },
     {
@@ -602,6 +607,7 @@
         "background": "A3.1",
 		"character": "Faith",
 		"expression": "Blush",
+		"music": "Default",
         "to": "faith1"
     },
     {
@@ -610,6 +616,7 @@
         "background": "A3.1",
 		"character": "Becky",
 		"expression": "Side",
+		"music": "Default",
         "to": "becky1"
     },
     {
@@ -842,7 +849,18 @@
         "id": "bubbles20",
         "text": "(Our wishes came true, and I am a crab now! I’m finally truly happy.)",
         "background": "Restaurant3",
-		"to": "end"
+		"to": "bubbles21"
+	},
+	{
+		"id": "bubbles21",
+		"text": "THE END",
+		"background": "Restaurant3",
+		"options": [
+			{
+				"text": "Start over",
+				"to": "house1"
+			}
+		]
 	},
     {
         "id": "faith1",
@@ -1111,8 +1129,19 @@
         "text": "I guess our strong connection allowed me to take the same form as you. Now we can truly live together as equals.",
 		"background": "Shipwreck3",
 		"character": "Me",
-        "to": "end"
+        "to": "faith29"
     },
+	{
+		"id": "faith29",
+		"text": "THE END",
+		"background": "Shipwreck3",
+		"options": [
+			{
+				"text": "Start over",
+				"to": "house1"
+			}
+		]
+	},
     {
         "id": "becky1",
         "text": "So, what did you want to show me?",
@@ -1383,12 +1412,12 @@
         "text": "No. It’s more than okay. It’s perfect. You can finally live as a human with me.",
 		"background": "AmusementPark4",
 		"character": "Me",
-        "to": "end"
+        "to": "becky29"
     },
 	{
-		"id": "end",
+		"id": "becky29",
 		"text": "THE END",
-		"background": "Beach",
+		"background": "AmusementPark4",
 		"options": [
 			{
 				"text": "Start over",

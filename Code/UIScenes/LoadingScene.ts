@@ -27,11 +27,23 @@ const USED_IMAGES = [
     "Resources/Textures/Backgrounds/A2.4.png",
     "Resources/Textures/Backgrounds/A3.1.png",
     "Resources/Textures/Backgrounds/A3.2.png",
+    "Resources/Textures/Backgrounds/AmusementPark.png",
+    "Resources/Textures/Backgrounds/AmusementPark2.png",
+    "Resources/Textures/Backgrounds/AmusementPark3.png",
+    "Resources/Textures/Backgrounds/AmusementPark4.png",
+    "Resources/Textures/Backgrounds/Beach.png",
+    "Resources/Textures/Backgrounds/Restaurant.png",
+    "Resources/Textures/Backgrounds/Restaurant2.png",
+    "Resources/Textures/Backgrounds/Restaurant3.png",
+    "Resources/Textures/Backgrounds/Shipwreck.png",
+    "Resources/Textures/Backgrounds/Shipwreck2.png",
+    "Resources/Textures/Backgrounds/Shipwreck3.png",
     "Resources/Textures/Characters/Bubbles/Idle.png",
     "Resources/Textures/Characters/Bubbles/Sparkle.png",
     "Resources/Textures/Characters/Bubbles/Worried.png",
     "Resources/Textures/Characters/Bubbles/HappyClosed.png",
     "Resources/Textures/Characters/Bubbles/HappySide.png",
+    "Resources/Textures/Characters/Bubbles/Flex.png",
     "Resources/Textures/Characters/Faith/Idle.png",
     "Resources/Textures/Characters/Faith/Blush.png",
     "Resources/Textures/Characters/Faith/Side.png",
@@ -39,14 +51,15 @@ const USED_IMAGES = [
     "Resources/Textures/Characters/Faith/Angry.png",
     "Resources/Textures/Characters/Becky/Idle.png",
     "Resources/Textures/Characters/Becky/Side.png",
-    "Resources/Textures/Characters/Becky/Suprised.png",
-    "Resources/Textures/Characters/Becky/ReallySuprised.png",
+    "Resources/Textures/Characters/Becky/Surprised.png",
+    "Resources/Textures/Characters/Becky/ReallySurprised.png",
     "Resources/Textures/Characters/Becky/Silent.png",
     "Resources/Textures/Characters/Becky/Sad.png",
     "Resources/Textures/Characters/Becky/Pervert.png",
     "Resources/Textures/Characters/Becky/Happy.png",
     "Resources/Textures/Characters/Goldenfish/Idle.png",
-    "Resources/Textures/Characters/Goldengish/Evil.png",
+    "Resources/Textures/Characters/Goldenfish/Evil.png",
+    "Resources/Textures/Characters/Rebecca/Idle.png",
 ];
 
 class LoadingScene extends UIScene
@@ -84,7 +97,7 @@ class LoadingScene extends UIScene
     {
         this.Name = "Loading";
         this.BackColor = TBX.Color.Black;
-        this.CreateBackground("Dark");
+        this.CreateBackground("Beach");
         this._Title.Text = TBX.Runner.Current.Game.Name;
         this._Title.Style.Text.Size = 70;
         this._OverColor = TBX.Color.FromRGBA(23,38,49,255);

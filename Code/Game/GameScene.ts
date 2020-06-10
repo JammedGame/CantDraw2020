@@ -5,6 +5,7 @@ import { DialogEntry } from "./GameData/DialogEntry";
 import { DialogPool } from "./GameData/DialogPool";
 import { DialogPanel } from "./Dialog/DialogPanel";
 import { CharacterImage } from "./Character/CharacterImage";
+import { SoundManager } from "../SoundManager";
 
 class GameScene extends TBX.Scene2D
 {
@@ -50,9 +51,7 @@ class GameScene extends TBX.Scene2D
     public InitData() : void
     {
         this._Entry = DialogPool.All.FindAtIndex(0);
-        this._Dialog.Init(this._Entry);
-        this._Character.Init(this._Entry.CharacterID, this._Entry.Expression);
-        this.SetBackground(this._Entry.Background);
+        this.ApplyEntry();
     }
     private CreateBackground() : void
     {
@@ -71,8 +70,13 @@ class GameScene extends TBX.Scene2D
     public OnEntryChanged(EntryID: string) : void
     {
         this._Entry = DialogPool.All.Find(EntryID);
+        this.ApplyEntry();
+    }
+    private ApplyEntry() : void
+    {
         this._Dialog.Init(this._Entry);
         this._Character.Init(this._Entry.CharacterID, this._Entry.Expression);
         this.SetBackground(this._Entry.Background);
+        SoundManager.PlayMusic(this._Entry.Music);
     }
 }

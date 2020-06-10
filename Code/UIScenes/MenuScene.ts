@@ -3,6 +3,7 @@ export { MenuScene }
 import * as TBX from "toybox-engine";
 
 import { UIScene } from "./UIScene";
+import { SoundManager } from "../SoundManager";
 
 class MenuScene extends UIScene
 {
@@ -36,17 +37,25 @@ class MenuScene extends UIScene
         this._Settings.Events.Click.push(this.SettingsClick);
         this._Credits = this.CreateButton("Credits", 2);
         this._Credits.Events.Click.push(this.CreditsClick);
+        this.Events.Click.push(this.ClickAnywhere);
     }
     private PlayClick() : void
     {
         TBX.Runner.Current.SwitchScene("Game");
+        this.ClickAnywhere();
     }
     private SettingsClick() : void
     {
         TBX.Runner.Current.SwitchScene("Settings");
+        this.ClickAnywhere();
     }
     private CreditsClick() : void
     {
         TBX.Runner.Current.SwitchScene("Credits");
+        this.ClickAnywhere();
+    }
+    private ClickAnywhere() : void
+    {
+        SoundManager.UpdateVolumes();
     }
 }

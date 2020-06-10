@@ -23,6 +23,7 @@ class DialogEntry
     public CharacterID: string;
     public NextID: string;
     public Expression: string;
+    public Music: string;
     public Options: DialogOption[];
     public constructor(Data?: any)
     {
@@ -35,6 +36,7 @@ class DialogEntry
             this.CharacterID = Data.character;
             this.NextID = Data.to;
             this.Expression = Data.expression;
+            this.Music = Data.music;
             if(Data.options)
             {
                 this.Options = Data.options.map(option => new DialogOption(option, this.NextID));
