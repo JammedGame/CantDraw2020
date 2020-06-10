@@ -56,6 +56,7 @@ class MenuScene extends UIScene
     }
     private ClickAnywhere() : void
     {
+        // gotta trigger volume update on click so that chrome unblocks audio: https://goo.gl/7K7WLu
         SoundManager.UpdateVolumes();
     }
 }
