@@ -32,11 +32,11 @@ class MenuScene extends UIScene
         this._Title.Style.Text.Size = 70;
         this._OverColor = TBX.Color.FromRGBA(23,38,49,255);
         this._Play = this.CreateButton("Play", 0);
-        this._Play.Events.Click.push(this.PlayClick);
+        this._Play.Events.Click.push(this.PlayClick.bind(this));
         this._Settings = this.CreateButton("Settings", 1);
-        this._Settings.Events.Click.push(this.SettingsClick);
+        this._Settings.Events.Click.push(this.SettingsClick.bind(this));
         this._Credits = this.CreateButton("Credits", 2);
-        this._Credits.Events.Click.push(this.CreditsClick);
+        this._Credits.Events.Click.push(this.CreditsClick.bind(this));
         this.Events.Click.push(this.ClickAnywhere);
     }
     private PlayClick() : void
